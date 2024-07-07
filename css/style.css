@@ -1866,7 +1866,6 @@ h4 {
 
 /*===============footer end=============*/
 /* ==================== tablet end============ */
-@media {}
 
 /*================================ desctop ===========*/
 @media (min-width: 1200px) {
@@ -1900,7 +1899,7 @@ h4 {
 	.header-container {
 		display: flex;
 		flex-direction: column;
-		width: 1200px;
+		width: 1660px;
 		padding: 0px 15px;
 		margin: auto;
 		position: relative;
@@ -1908,7 +1907,7 @@ h4 {
 	}
 
 	.header-navigation {
-		width: 1170px;
+		width: 1600px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -1939,7 +1938,7 @@ h4 {
 	}
 
 	.header-menu-link:hover {
-		color: #b7adad;
+		color: #ede0e0;
 		text-decoration: underline;
 	}
 
