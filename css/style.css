@@ -1,3 +1,19 @@
+/*==========fonts=========*/
+@font-face {
+	font-family: "Open Sans Regular";
+	src: url("../fonts/OpenSans-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Open Sans Bold";
+	src: url("../fonts/OpenSans-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
+
 /*==== BODY ====================================================================*/
 body {
 	font-family: "open sans regular", sans-serif;
@@ -51,20 +67,6 @@ h4 {
 }
 
 /* ===== body end ==========*/
-/*==========fonts=========*/
-@font-face {
-	font-family: "Open Sans Regular";
-	src: url("../fonts/OpenSans-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Open Sans Bold";
-	src: url("../fonts/OpenSans-Bold.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-}
 
 /*=================================max-width: 640px===mobile===*/
 @media (max-width: 640px) {
@@ -1866,6 +1868,7 @@ h4 {
 
 /*===============footer end=============*/
 /* ==================== tablet end============ */
+@media {}
 
 /*================================ desctop ===========*/
 @media (min-width: 1200px) {
@@ -1899,7 +1902,7 @@ h4 {
 	.header-container {
 		display: flex;
 		flex-direction: column;
-		width: 1660px;
+		width: 1200px;
 		padding: 0px 15px;
 		margin: auto;
 		position: relative;
@@ -1907,7 +1910,7 @@ h4 {
 	}
 
 	.header-navigation {
-		width: 1600px;
+		width: 1170px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -2439,10 +2442,8 @@ h4 {
 	}
 
 	.search-form-input {
-		background-color: #f4f7f6;
-		border: 1px solid #b59a4b;
+		background-color:#1c161638;
 		box-sizing: border-box;
-		border-radius: 3px;
 		padding-left: 15px;
 		position: relative;
 		font-size: 14px;
@@ -2459,8 +2460,8 @@ h4 {
 	.search-form-button {
 		margin: 0;
 		position: absolute;
-		height: 47px;
-		width: 47px;
+		height: 48px;
+		width: 48px;
 		background-color: #b59f5b;
 		z-index: 2;
 		right: 0;
@@ -2468,7 +2469,6 @@ h4 {
 		background-size: 20px;
 		background-repeat: no-repeat;
 		background-position: center center;
-		border-radius: 3px;
 		cursor: pointer;
 	}
 
@@ -2494,11 +2494,9 @@ h4 {
 		outline: none;
 		width: 272px;
 		height: 47px;
-		font-size: 12px;
-		background-color: #f4f7f6;
-		border-radius: 3px;
-		padding-left: 5px;
-		border: 1px solid #f4f7f6;
+		font-size: 14px;
+		background-color: #1c161638;
+		padding-left: 15px;
 	}
 
 	.email__input:focus {
@@ -2514,7 +2512,6 @@ h4 {
 		font-weight: 700;
 		font-family: inherit;
 		margin-top: 20px;
-		border-radius: 3px;
 		cursor: pointer;
 	}
 
